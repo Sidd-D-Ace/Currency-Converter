@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="Header">
+        <header>Currency Converter</header>
+    </div>
+    <main>
+        <div id="Form">
+            <form action="" id="mainForm">
+                <p class="Labels">
+                    <label for="fCurrency">Select Your Currency</label>
+                </p>
+                <div class="selectFlags">
+                <select name="fCurrencies" class="selectCurrencies" id="fCurrencies">
+                    <option value="USD" id="foption">USD</option>
+                  </select>
+                  <img src="https://flagsapi.com/US/flat/64.png" alt="" class="images" id="fFlag">
+                </div>
+                  <p class="Labels">
+                  <label for="fCurrencyLabel" >Enter here</label>
+                  </p>
+                  <input type="text" class="value" id = "fCurrencyValue" rows="1">
+                
+                <p class="Labels">
+                    <label for="sCurrency" >Select Currency to Convert</label>
+                </p>
+                <div class="selectFlags">
+                <select name="sCurrencies" class="selectCurrencies" id="sCurrencies">
+                    <option value="USD" id="soption">USD</option>
+                  </select>
+                  <img src="https://flagsapi.com/US/flat/64.png" alt="" class="images" id="sFlag">
+                </div>
+                  <p class="Labels">
+                    <label for="sCurrencyLabel">Converted Currency</label>
+                  </p>
+                  <p class="value" id = "sCurrencyValue" ></p>
+                  <div id="submitBtn">
+                    <button  id="submitBtnInput">Get Currency</button>
+                  </div>
+            </form>
+        </div>
+    </main>
+    <script src="codes.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,162 @@
+*{
+    margin: 0%;
+}
+
+body{
+    background-color: #1B4242;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    font-size: 5vh;
+    background-color: #092635;
+    color: #F5E8C7;
+}
+
+#Form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8vmin;
+    padding-bottom: 8vmin;
+    background-color: #9EC8B9;
+    width: 20rem;
+    margin-top: 11vmin;
+    border-radius: 2vmin;
+    margin-bottom: 11vmin;
+    border: black solid 0.2rem;
+}
+
+#mainForm{
+    justify-content: center;
+    align-items: center;
+}
+
+.selectCurrencies{
+    width: 4rem;
+    height: 2rem;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background-color: aliceblue;
+    cursor: pointer;
+
+}
+
+.selectCurrencies:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+
+
+.selectCurrencies::selection{
+    border: none;
+}
+
+#fCurrencyValue{
+    width: 12.6rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+}
+
+
+#sCurrencyValue{
+    width: 13rem;
+    height: 4rem;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    resize: none;
+}
+
+#submitBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.5rem;
+
+}
+
+#submitBtnInput{
+    border-radius: 1rem;
+    height: 6vmin;
+    width: 24vmin;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.Labels{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.selectFlags{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vmin;
+    background-color: aliceblue;
+    border-radius: 2vmin;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.selectFlags img{
+    width: 3.5rem;
+}
+
+.value{
+    outline: none;
+    border: none;
+    box-shadow: none;
+    overflow: hidden;
+    resize: horizontal;
+}
+.value:focus{
+    outline: none;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+@media only screen and (max-width: 600px) {
+    #submitBtnInput{
+        border-radius: 1rem;
+        height: 10vmin;
+        width: 48vmin;
+        font-size: 1.6rem;
+        cursor: pointer;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    #sCurrencyValue{
+        width: 13rem;
+        height: 4rem;
+        border-radius: 0.5rem;
+        font-size: 1.8rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: aliceblue;
+        resize: none;
+    }
+}
