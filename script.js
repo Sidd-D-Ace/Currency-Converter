@@ -12,7 +12,7 @@ let fFlagImg=document.getElementById("fFlag");                      //First Flag
 let sFlagImg=document.getElementById("sFlag");                      //Second Flag Image
 
 let fvalue=0;                                                       //Actual entered amount
-let fcountrycode,scountrycode;                                      //used for storing Country code for API Request
+let fcountrycode='usd',scountrycode='usd';                                      //used for storing Country code for API Request
 
 
 let dropdown=document.querySelectorAll(".selectCurrencies");        //dropdown list
