@@ -165,4 +165,7 @@ main{
         border-radius: 0.5rem;
         font-size: 1.5rem;
     }
+    #Header{
+        font-size: 4vh;
+    }
 }
